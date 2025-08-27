@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Estrutura para guardar as informações de um território
+// Estrutura para guardar informações do território
 struct Territorio {
     char nome[30];
     char cor[10];
@@ -26,7 +26,7 @@ int main() {
         scanf("%d", &territorios[i].tropas);
     }
 
-    // Exibindo os dados
+    // Lista dos dados
     printf("\n--- Lista de Territórios ---\n");
     for (i = 0; i < 5; i++) {
         printf("\nTerritório %d\n", i + 1);
